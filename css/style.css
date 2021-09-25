@@ -1,11 +1,7 @@
 
-
-
-
 body{
     scroll-behavior: smooth;
 }
-
 
 .logo{
     width: 2em;
@@ -23,7 +19,6 @@ a:hover:not(.card-link){
     color: #F28C3C !important;
     border-radius: 5px;
 }
-
 
 #section-two, #section-four{
     display: flex;
