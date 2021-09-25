@@ -1,0 +1,115 @@
+
+
+
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+.logo{
+    width: 2em;
+}
+
+a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    transition: all 300ms ease !important;
+    padding: 10px 15px !important;
+}
+
+a:hover:not(.card-link){
+    transform: scale(120%);
+    color: #F28C3C !important;
+    border-radius: 5px;
+}
+
+
+#section-two, #section-four{
+    display: flex;
+    background-color: #F0EBE1;
+    background-attachment: fixed;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    padding-left: 15%;
+}
+
+#section-one, #section-three, #section-five{
+    display: flex;
+    background-color: #222222;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    padding-right: 15%
+}
+
+#section-one{
+    background-image: url(../img/brasil2.png);
+    background-size: 30rem;
+    background-attachment: fixed;
+    background-position: left 20% bottom 40%;
+    background-repeat: no-repeat;
+}
+
+#section-two{
+    background-image: url(../img/feijoada.png);
+    background-size: 40rem;
+    background-attachment: fixed;
+    background-position: right 20% bottom 30%;
+    background-repeat: no-repeat;
+}
+
+#section-three{
+    
+}
+
+#section-four{
+    
+}
+
+
+.card{
+    opacity: 75%;
+    margin: 0 20px;
+}
+
+.card-link{
+    background-color: #F28C3C;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.card-link:hover{
+    color: white;
+    background-color: #ad5919;
+}
+
+.card-alt{
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    right: 0;
+}
+
+
+@media (max-width: 1200px) {
+    .card{
+        opacity: 100%;
+    }
+}
+
+@media (max-width: 1080px) {
+    html{
+        font-size: 93.75%;
+    }
+}
+@media (max-width: 720px) {
+    html{
+        font-size: 87.5%;
+    }
+}
