@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regiões | Comidas Típicas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/regioes.css">
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
     
     <header class="sticky-top">
       <nav class="navbar navbar-expand-sm navbar-light" style="background-color:whitesmoke">
@@ -20,7 +43,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <a class="nav-link active" aria-current="page" href="index.html"><img class="logo" src="./img/logo2.png" alt="logo"></a>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Início</a>
@@ -43,66 +66,75 @@
       </nav>
     </header>
   
-    <main>
-        <section class="d-flex flex-column justify-content-center align-items-center">
-          <h1>Pratos por regiões</h1>
-        </section>
-        <section class="card-grid container text-center">
-          <div class="row">
-            <div class="grid col card-regioes">
-              <div class="image-container">
-                <img src="./img/tacaca.jpeg" alt="Tacacá">
-              </div>
-              <h2>Tacacá</h2>
-              <h4>Região Norte</p>
-              <a href="#" class="card-link" target="_blank">Saiba Mais</a>
-            </div>
-            <div class="grid col card-regioes">
-                <div class="image-container">
-                  <img src="./img/acaraje.jpeg" alt="Acarajé">
-                </div>
-                <h2>Acarajé</h2>
-                <h4>Região Nordeste</p>
-                <a href="#" class="card-link" target="_blank">Saiba Mais</a>
-            </div>
-            <div class="grid col card-regioes">
-                <div class="image-container">
-                  <img src="./img/mojica.jpeg" alt="Mojica de Pintado">
-                </div>
-                <h2>Mojica de Pintado</h2>
-                <h4>Região Centro-Oeste</p>
-                <a href="#" class="card-link" target="_blank">Saiba Mais</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="grid col card-regioes">
-              <div class="image-container">
-                <img src="./img/paodequeijo.jpeg" alt="Pão de Queijo">
-              </div>
-              <h2>Pão de Queijo</h2>
-              <h4>Região Sudeste</p>
-              <a href="#" class="card-link" target="_blank">Saiba Mais</a>
-            </div>
-            <div class="grid col card-regioes">
-                <div class="image-container">
-                  <img src="./img/espeto.jpeg" alt="Espeto Corrido">
-                </div>
-                <h2>Espeto Corrido</h2>
-                <h4>Região Sul</p>
-                <a href="#" class="card-link" target="_blank">Saiba Mais</a>
-            </div>
-            <div class="grid col card-regioes">
-                <div class="image-container">
-                  <img src="./img/pizza.jpeg" alt="Pizza">
-                </div>
-                <h2>Pizza</h2>
-                <h4>Jeitinho Brasileiro</p>
-                <a href="#" class="card-link" target="_blank">Saiba Mais</a>
-            </div>
-          </div>
+    <h1>Pratos por regiões do Brasil</h1>
 
-        </section>
-        
+    <section class="container text-center mw-1080px mt-3">
+      <div class="card-deck mb-4">
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./img/tacaca.jpeg" alt="Tacacá"/>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title mt-0">Tacacá</h2>
+            <h5 class="card-text mb-4">Região Norte</h5>
+            <a class="card-link" href="#">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./img/acaraje2.jpeg" alt="Acarajé"/>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title mt-0">Acarajé</h2>
+            <h5 class="card-text mb-4">Região Nordeste</h5>
+            <a class="card-link" href="#">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./img/mojica.jpeg" alt="Mojica de Pintado"/>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title mt-0">Mojica de Pintado</h2>
+            <h5 class="card-text mb-4">Região Centro-Oeste</h5>
+            <a class="card-link" href="#">Saiba Mais</a>
+          </div>
+        </div>  
+      </div>
+
+      <div class="card-deck mb-4">
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./img/paodequeijo.jpeg" alt="Pão de Queijo"/>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title mt-0">Pão de Queijo</h2>
+            <h5 class="card-text mb-4">Região Sudeste</h5>
+            <a class="card-link" href="#">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./img/espeto.jpeg" alt="Espeto Corrido"/>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title mt-0">Espeto Corrido</h2>
+            <h5 class="card-text mb-4">Região Sul</h5>
+            <a class="card-link" href="#">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./img/pizza.jpeg" alt="Pizza"/>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title mt-0">Pizza</h2>
+            <h5 class="card-text mb-4">Estrangeiros Abrasileirados</h5>
+            <a class="card-link" href="#">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
   
   
   </body>
