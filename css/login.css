@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    scroll-behavior: smooth;
+    background-color: #F0EBE1;
+}
+
+.logo{
+    width: 2em;
+}
+
+a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    transition: all 300ms ease !important;
+    padding: 10px 15px !important;
+}
+
+a:hover{
+    transform: scale(105%);
+    color: #F28C3C !important;
+    border-radius: 5px;
+}
+
+.width-bord{
+    background-color: #F0EBE1;
+    width:100%;
+}
+
+.btn:hover{
+    transform: scale(105%);
+    border-radius: 5px;
+}
+
+.card{
+    background-color: #222222;
+    width: 400px;
+    border: 1px solid #F28C3C;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px #F28C3C;
+}
+
+.card{
+    opacity: 90%;
+    margin-top: 220px;
+}
+
+#enviar{
+    background-color: #F28C3C;
+}
+
+.tapioca{
+    position:fixed;
+    margin-top: 50px;
+}
+
+#login{
+    background-image: url(../img/tapioca.png);
+    background-size: 23rem;
+    background-attachment: fixed;
+    background-position: left 20% bottom 40%;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+#login{
+    display: flex;
+    background-color: #F0EBE1;
+    justify-content: flex-end;
+    height: calc(100vh - 76.36px);
+    width: 98vw;
+    align-items: center;
+    padding-right: 15%;
+    padding-bottom: 30%
+}
+
+label {
+    display: inline-block;
+    color:white;
+}
+
+input[type="checkbox"]:hover{
+    transform: scale(115%);
+    transition: all 0.5s ease-in-out;
+  }
+
+input[type="checkbox"]{
+    padding: 1px;
+    margin:3px;
+    vertical-align: center;
+    position: relative;
+    top: 1px;
+    overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+    .card{
+        opacity: 100%;
+    }
+}
+
+@media (max-width: 1080px) {
+    html{
+        font-size: 93.75%;
+    }
+}
+@media (max-width: 720px) {
+    html{
+        font-size: 87.5%;
+    }
+}
