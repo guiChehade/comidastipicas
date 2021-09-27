@@ -1,4 +1,9 @@
+:root{
+    --preto: #222222;
+    --laranja: #F28C3C;
+    --branco: #F0EBE1;
 
+}
 body{
     scroll-behavior: smooth;
 }
@@ -57,13 +62,13 @@ a:hover:not(.card-link){
     background-repeat: no-repeat;
 }
 
-#section-three{
+/* #section-three{
     
 }
 
 #section-four{
     
-}
+} */
 
 
 .card1{
