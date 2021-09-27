@@ -1,48 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastre-se | Comidas Típicas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/cadastro.css" />
+  </head>
 
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-sm navbar-light" style="background-color:whitesmoke">
-          <div class="container-fluid header">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="nav-link active" aria-current="page" href="#section-one"><img class="logo" src="./img/logo2.png" alt="logo"></a>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Início</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="regioes.html">Regiões</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="sobre.html">Sobre nós</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cadastro.html">Cadastre-se</a>
-                </li>
-              </ul>
-            </div>
+      <nav
+        class="navbar navbar-expand-sm navbar-light"
+        style="background-color: whitesmoke"
+      >
+        <div class="container-fluid header">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="nav-link active" aria-current="page" href="#section-one"
+            ><img class="logo" src="./img/logo2.png" alt="logo"
+          /></a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regioes.html">Regiões</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+              </li>
+            </ul>
           </div>
+        </div>
       </nav>
     </header>
-  
-  
-  
+
+    <section>
+      <h1>Cadastro</h1>
+      <form action="">
+        <div class="Content01">
+          <label for="name">🙋‍♀️ Nome:</label>
+          <input type="text" name="" id="" />
+        </div>
+
+        <div class="Content01">
+          <label for="Endereço">🏙️ Endereço:</label>
+          <input type="text" name="" id="" />
+        </div>
+        <div class="Content01">
+          <label for="e-mail">✉️ E-mail:</label>
+          <input type="text" name="" id="" />
+        </div>
+        <div class="Content01">
+          <label for="DatadeNascimento">📅 Data de Nascimento:</label>
+          <input type="date" name="" id="" />
+        </div>
+        <div class="Content01">
+          <label for="Telefone">📞 Telefone:</label>
+          <input type="text" name="" id="" />
+        </div>
+
+        <div class="Content01">
+          <label for="name">👨‍🦲 Sexo:</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="Masculino"
+            id="Masculino"
+            value="Masculino"
+          />
+          <label for="Masculino">Masculino</label>
+
+          <input type="radio" name="Feminino" id="Feminino" value="Feminino" />
+          <label for="Feminino">Feminino</label>
+        </div>
+        <div id="butao">
+          <button id = "Butao2">Enviar</button>
+          <button id = "Butao3">Cancelar</button>
+        </div>
+      </form>
+    </section>
   </body>
-  </html>
+</html>
