@@ -51,6 +51,16 @@ a:hover{
     margin-top: 220px;
 }
 
+h1{
+    color:#F28C3C;
+    width: auto;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight:900;
+    text-align: center;
+    text-shadow: 1px 1px #F0EBE1;
+}
+
 #enviar{
     background-color: #F28C3C;
 }
