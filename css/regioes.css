@@ -1,10 +1,17 @@
+:root{
+    --preto: #222222;
+    --laranja: #F28C3C;
+    --branco: #F0EBE1;
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+main{
     background-color: #222222;
 }
 
@@ -84,4 +91,8 @@ a:hover:not(.card-link){
 
 button{
     border: none !important;
+}
+
+.footer{
+    background-color: var(--branco);
 }
