@@ -19,6 +19,17 @@ form {
   max-width:600px;
 }
 
+
+h1{
+  color:#F28C3C;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight:900;
+  text-align: center;
+  text-shadow: 1px 1px #F0EBE1;
+}
+
+
 section {
   display: flex;
   flex-direction: column;
