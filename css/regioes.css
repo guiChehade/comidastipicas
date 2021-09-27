@@ -81,3 +81,7 @@ a:hover:not(.card-link){
     color: #F28C3C !important;
     border-radius: 5px;
 }
+
+button{
+    border: none !important;
+}
