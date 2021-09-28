@@ -62,14 +62,30 @@ a:hover:not(.card-link){
     background-repeat: no-repeat;
 }
 
-/* #section-three{
-    
+#section-three{
+    background-image: url(../img/3-4.png);
+    background-size: 40rem;
+    background-attachment: fixed;
+    background-position: left 20% bottom 30%;
+    background-repeat: no-repeat;
 }
 
-#section-four{
-    
-} */
 
+#section-four{
+    background-image: url(../img/4-5-2.png);
+    background-size: 50rem;
+    background-attachment: fixed;
+    background-position: right 20% bottom 30%;
+    background-repeat: no-repeat;
+}
+
+#section-five{
+    background-image: url(../img/002-removebg-preview.png);
+    background-size: 40rem;
+    background-attachment: fixed;
+    background-position: left 20% bottom 30%;
+    background-repeat: no-repeat;
+}
 
 .card1{
     opacity: 75%;
