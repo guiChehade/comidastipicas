@@ -36,7 +36,7 @@ a:hover:not(.card-link){
     padding-left: 15%;
 }
 
-#section-one, #section-three, #section-five{
+#section-one, #section-three, #section-five {
     display: flex;
     background-color: #222222;
     justify-content: flex-end;
@@ -55,7 +55,7 @@ a:hover:not(.card-link){
 }
 
 #section-two{
-    background-image: url(../img/feijoada.png);
+    background-image: url(../img/007.png); /* antigo feijoada */ 
     background-size: 40rem;
     background-attachment: fixed;
     background-position: right 20% bottom 30%;
@@ -70,9 +70,8 @@ a:hover:not(.card-link){
     background-repeat: no-repeat;
 }
 
-
 #section-four{
-    background-image: url(../img/007.png);
+    background-image: url(../img/001.png);
     background-size: 50rem;
     background-attachment: fixed;
     background-position: right 20% bottom 30%;
@@ -80,7 +79,7 @@ a:hover:not(.card-link){
 }
 
 #section-five{
-    background-image: url(../img/001.png);
+    background-image: url(../img/feijoada.png); /* 001 */
     background-size: 40rem;
     background-attachment: fixed;
     background-position: left 20% bottom 30%;
