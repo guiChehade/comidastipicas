@@ -63,7 +63,7 @@ a:hover:not(.card-link){
 }
 
 #section-three{
-    background-image: url(../img/3-4.png);
+    background-image: url(../img/005.png);
     background-size: 40rem;
     background-attachment: fixed;
     background-position: left 20% bottom 30%;
@@ -72,7 +72,7 @@ a:hover:not(.card-link){
 
 
 #section-four{
-    background-image: url(../img/4-5-2.png);
+    background-image: url(../img/009.png);
     background-size: 50rem;
     background-attachment: fixed;
     background-position: right 20% bottom 30%;
@@ -80,7 +80,7 @@ a:hover:not(.card-link){
 }
 
 #section-five{
-    background-image: url(../img/002-removebg-preview.png);
+    background-image: url(../img/002.png);
     background-size: 40rem;
     background-attachment: fixed;
     background-position: left 20% bottom 30%;
