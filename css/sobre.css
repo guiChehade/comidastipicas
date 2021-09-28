@@ -67,11 +67,11 @@ h2{
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.04);
     transition: all 250ms ease-in-out;
     border-style: solid;
     border-color: var(--laranja);
-    border-width: 4px;
+    border-width: 3px;
     cursor: pointer;
 }
 
